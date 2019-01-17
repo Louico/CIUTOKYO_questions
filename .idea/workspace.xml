@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab21e6e-a25f-4d3c-8569-e797f9bb1f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tu15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TUp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TUp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tu15.py" beforeDir="false" afterPath="$PROJECT_DIR$/tu15.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TUp$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1547627595557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TUp$tu15.coverage" NAME="tu15 Coverage Results" MODIFIED="1547728367408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TUp$tu15.coverage" NAME="tu15 Coverage Results" MODIFIED="1547735898266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TUp$tu17.coverage" NAME="tu17 Coverage Results" MODIFIED="1547446683157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TUp$tu16.coverage" NAME="tu16 Coverage Results" MODIFIED="1547711781032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TUp$backtrack.coverage" NAME="backtrack Coverage Results" MODIFIED="1547724636702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DataStructures" />
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tu15.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="360">
+              <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,9 +111,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
+    <option name="x" value="648" />
     <option name="y" value="23" />
-    <option name="width" value="1168" />
+    <option name="width" value="1236" />
     <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -297,17 +295,33 @@
       <workItem from="1547478266030" duration="215000" />
       <workItem from="1547618908858" duration="7739000" />
       <workItem from="1547707988532" duration="5141000" />
-      <workItem from="1547724008200" duration="3972000" />
+      <workItem from="1547724008200" duration="8461000" />
     </task>
+    <task id="LOCAL-00001" summary="a commit">
+      <created>1547728417582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547728417582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a commit">
+      <created>1547731265495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547731265495</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33189000" />
+    <option name="totallyTimeSpent" value="37678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="23" width="1168" height="1036" extended-state="0" />
+    <frame x="648" y="23" width="1236" height="1036" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19804618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14572865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +332,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944915" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -332,6 +346,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="a commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../DataStructures/backtrtrack.py" />
@@ -372,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tu15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
         </state>
       </provider>
     </entry>
