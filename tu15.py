@@ -51,9 +51,22 @@ def rome_to_ten(str):
 def ten_to_rome(num):
     result=""
     length = len(str(num))
-    for i in range():
+    counter = [0]*4
+    for i in range(length):
+        mod = num%(10**((length-i)-1))
+        num = num - mod
+        print("mod = ",mod)
+        counter[i] = num/(10**((length-i)-1))
+        num = mod
+
+        print(counter[i])
+    four = {3:"MMM",2:"MM",1:"M",0:""}
+    three = {9:"CM",8:"DCD",7:"DCC",6:"DC",5:"D",4:"CD",3:"CCC",2:"CC",1:"C",0:""}
+    two = {9:"XC",8:"LXXX",7:"LXX",6:"LX",5:"L",4:"XL",3:"XXX",2:"XX",1:"X",0:""}
+    one = {9:"IX",8:"VIII",7:"VII",6:"VI",5:"V",4:"IV",3:"III",2:"II",1:"I",0:""}
+    result+= four[counter[0]]+three[counter[1]]+two[counter[2]]+one[counter[3]]
 
     return result
-num =1000
-print(len(str(num)))
-print(len(num))
+num =1904
+print(ten_to_rome(num))
+
