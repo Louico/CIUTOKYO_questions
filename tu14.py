@@ -24,7 +24,37 @@ def find_str(text,str_to_find):
     return result
 
 def find_duplicate(text):
-    pass
+    tmp=[]
+    for i in range(len(text)-1):
+        if text[i]==text[i+1]:
+            tmp.append(text[i])
+            #print("found same in row ",i)
+    for j in range(len(tmp)-1):
+        while (j+1<len(tmp) and tmp[j]==tmp[j+1]):
+            del tmp[j]
+    return tmp
+
+def find_duplicate_V2(text):
+    code={}
+    tmp=[""]*len(text)
+    for i in range(len(text)):
+
+        code[text[i]] = code.get(text[i],[0,i])
+        code[text[i]][0] += 1
+
+            #print("found same in row ",i)
+    #some effect to make dict ordered
+    for k,v in code.items():
+        if v[0]>1:
+            tmp[v[1]]=k
+    result = ""
+    for i in tmp:
+        if i:
+            result+=i+"\n"
+
+    return result[:-1]
 text,program,row = read_program(path)
-print(find_char(program,";"))
+#print(find_char(program,";"))
 #print(find_str(program,"main"))
+result = find_duplicate_V2(program)
+print(result)
