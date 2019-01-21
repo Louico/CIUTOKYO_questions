@@ -36,9 +36,10 @@ def find_duplicate(text):
 
 def find_duplicate_V2(text):
     code={}
+
     tmp=[""]*len(text)
     for i in range(len(text)):
-
+        text[i] = text[i].strip()
         code[text[i]] = code.get(text[i],[0,i])
         code[text[i]][0] += 1
 
@@ -48,13 +49,18 @@ def find_duplicate_V2(text):
         if v[0]>1:
             tmp[v[1]]=k
     result = ""
+    number = 0
     for i in tmp:
         if i:
             result+=i+"\n"
+            number+=1
 
-    return result[:-1]
+    return result[:-1],number
+
+def find_similar_lines(text):
+    pass
 text,program,row = read_program(path)
 #print(find_char(program,";"))
 #print(find_str(program,"main"))
-result = find_duplicate_V2(program)
-print(result)
+result,num = find_duplicate_V2(program)
+print(num," duplicate lines \n",result)
